@@ -115,6 +115,50 @@
   font-weight: bold;
 }
 
+.section-title {
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 1.15;
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+
+.section-subtitle {
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 34px;
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.table {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1100px;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.table__cell {
+  margin-top: 60px;
+  width: 250px;
+}
+
+.table__heading {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.15;
+  margin: 0;
+}
+
+.table__text {
+  font-size: 18px;
+  line-height: 1.2;
+  margin: 20px 0 0;
+}
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 /*.header__square-pic {
