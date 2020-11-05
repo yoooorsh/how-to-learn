@@ -66,6 +66,10 @@
   text-decoration: none;
 }
 
+.header__link:hover {
+  color: #5c9aeb;
+}
+
 .logo {
   width: 183px;
 }
@@ -229,12 +233,16 @@
   right: 48px;
 }
 
+.feynman__link:hover {
+  color: #5c9aeb;
+}
+
 .kaufman {
   position: relative;
   background-color: #1f1f1f;
   padding: 90px 0;
   overflow: hidden;
-  z-index: 0;
+  z-index: 1;
 }
 
 .kaufman__triangle {
@@ -303,4 +311,8 @@
   font-size: 18px;
   line-height: 30px;
   text-decoration: none;
+}
+
+.footer__link:hover {
+  text-decoration: underline;
 }
