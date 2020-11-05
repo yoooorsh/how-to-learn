@@ -20,6 +20,7 @@
   flex-direction: column;
   justify-content: center;
   padding-left: 64px;
+  z-index: 1;
 }
 
 .header__title {
@@ -28,7 +29,6 @@
   line-height: 96px;
   width: 730px;
   margin: 0;
-  z-index: 3;
 }
 
 .header__subtitle {
@@ -39,7 +39,6 @@
   left: 64px;
   bottom: 30px;
   margin: 0;
-  z-index: 2;
 }
 
 .header__main-illustration {
@@ -48,7 +47,7 @@
   height: 608px;
   bottom: 0;
   right: 0;
-  z-index: 1;
+  z-index: -1;
 }
 
 .header__square-pic {
@@ -58,7 +57,7 @@
   background-color: #2f80ed;
   top: 64px;
   right: 0;
-  z-index: 0;
+  z-index: -2;
 }
 
 .header__link { 
