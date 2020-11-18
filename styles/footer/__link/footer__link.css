@@ -3,8 +3,10 @@
   font-size: 18px;
   line-height: 30px;
   text-decoration: none;
+  transition: opacity .1s linear;
 }
 
 .footer__link:hover {
-  text-decoration: underline;
+  /* text-decoration: underline; */
+  opacity: .7;
 }
