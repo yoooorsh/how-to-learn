@@ -45,6 +45,8 @@
 @import url('./kaufman/kaufman.css');
 @import url('./kaufman/__triangle/kaufman__triangle.css');
 @import url('./resources/resources.css');
+@import url('./resources/__logo-zone/resources__logo-zone.css');
+@import url('./resources/__logo/resources__logo.css');
 @import url('./footer/footer.css');
 @import url('./footer/__columns/footer__columns.css');
 @import url('./footer/__column_content_copyright/footer__column_content_copyright.css');
