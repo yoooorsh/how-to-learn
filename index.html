@@ -3,8 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./vendor/normalize.css"> 
-  <link rel="stylesheet" href="./styles/index.css">
+  <link rel="stylesheet" href="./pages/index.css">
   <title>Научиться учиться</title>
 </head>
 <body>
@@ -13,7 +12,7 @@
       <img class="logo logo_place_header" src="./images/logo_place_header.svg" alt="Логотип">
       <h1 class="header__title">Научиться учиться</h1>
       <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
-        <a class="header__link" href="#" target="_blank">Узнать &rarr;</a>
+        <a class="header__link" href="#" target="_blank" rel="noopener">Узнать &rarr;</a>
       </p>
       <img class="header__main-illustration" src="./images/header-image.png" alt="Иллюстрация на основе картины &laquo;Опять двойка&raquo; Ф.Решетникова ">
       <div class="header__square-pic rotation"></div>
@@ -64,8 +63,8 @@
         <h2 class="section-title">Видео на TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
         <div class="video__iframes">
-          <iframe class="video__iframe" id="ytplayer_1" type="text/html" src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
-          <iframe class="video__iframe" id="ytplayer_2" type="text/html" src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
         </div>
       </section>
       <section class="oakley">
@@ -79,7 +78,7 @@
       <section class="feynman">
         <h2 class="feynman__title">Метод Фейнмана</h2>
         <p class="feynman__subtitle">Выучить и не забыть.</p>
-        <a class="feynman__link" href=# target="_blank">Подробнее &rarr;</a>
+        <a class="feynman__link" href=# target="_blank" rel="noopener">Подробнее &rarr;</a>
       </section>
       <section class="digits">
         <h2 class="section-title">Цифры и факты</h2>
@@ -129,8 +128,8 @@
           <p class="khan__quote-author">Джордж Лукас</p>
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
-            <div class="khan__book-pic"></div>
-            <a class="khan__buy-link" href="#" target="_blank">Купить книгу &rarr;</a>
+            <img class="khan__book-pic" src="./images/khan-book.jpg" alt="Книга Весь мир - школа Салмана Хана">
+            <a class="khan__buy-link" href="#" target="_blank" rel="noopener">Купить книгу &rarr;</a>
           </div>
         </div>
       </section>
@@ -202,13 +201,13 @@
           <h3 class="footer__column-heading">О Практикуме</h3>
           <ul class="footer__column-links">
             <li>
-              <a class="footer__link" href="#" target="_self">Главная</a>
+              <a class="footer__link" href="#" target="_self" rel="noopener">Главная</a>
             </li>
             <li>
-              <a class="footer__link" href="#" target="_self">Концепция</a>
+              <a class="footer__link" href="#" target="_self" rel="noopener">Концепция</a>
             </li>
             <li>
-              <a class="footer__link" href="#" target="_self">Наставники</a>
+              <a class="footer__link" href="#" target="_self" rel="noopener">Наставники</a>
             </li>
           </ul>
         </nav>
@@ -216,19 +215,19 @@
           <h3 class="footer__column-heading">Соцсети</h3>
           <ul class="footer__column-links">
             <li>
-              <a class="footer__link" href="#" target="_blank">
+              <a class="footer__link" href="#" target="_blank" rel="noopener">
                 <img class="footer__social-icon" src="./images/facebook_color_white.svg" alt="Facebook">
                 Facebook
               </a>
             </li>
             <li>
-              <a class="footer__link" href="#" target="_blank">
+              <a class="footer__link" href="#" target="_blank" rel="noopener">
                 <img class="footer__social-icon" src="./images/vk_color_white.svg" alt="ВКонтакте">
                 ВКонтакте
               </a>
             </li>
             <li>
-              <a class="footer__link" href="#" target="_blank">
+              <a class="footer__link" href="#" target="_blank" rel="noopener">
                 <img class="footer__social-icon" src="./images/instagram_color_white.svg" alt="Instagram">
                 Instagram
               </a>
